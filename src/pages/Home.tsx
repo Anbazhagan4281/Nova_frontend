@@ -6,7 +6,7 @@ const Home = () => {
 				<IconBrandOffice stroke={1} color="gray"></IconBrandOffice>
 			</div>
 			<div className="px-2">
-				<div>Hello, Anbazhagn A</div>
+				<div>Hello, {localStorage.getItem('username')}</div>
 				<div className="text-xs">Demo</div>
 			</div>
 		</div>

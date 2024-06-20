@@ -10,7 +10,8 @@ const Nav:React.FC = () => {
       <AppBar position="static" elevation={0} sx={{ backgroundColor: "#3060a8" }}>
         <Toolbar className="flex justify-between items-center">
           <div className="flex justify-between items-center">
-            <img src="public/assets/logo-removebg.png" alt="Company Logo" />
+            {/* <img src="public/assets/logo-removebg.png" alt="Company Logo" /> */}
+            <div className='font-semibold text-3xl'>Nova</div>
           </div>
           <BasicMenu />
         </Toolbar>
